@@ -1,0 +1,109 @@
+<html>
+    <head>
+        <title>Cafe Offereings</title>
+    </head>
+    <style>
+        body{
+            background-image: url(cafe.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .link{
+            display: flex;
+            position: fixed;
+            top: 10;
+            justify-content: space-evenly;
+            width: 800px;
+            height: 55px;
+            font-size: 21px;
+            margin-left: 330px;
+        }
+        a{
+            text-decoration: wavy;
+            color: rgb(243, 187, 89);
+            font-weight: bold;
+        }    
+        a:hover{
+            color: rgb(112, 54, 18);
+        }
+        .name{
+            font-size: 65px;
+            margin-top: 100px;
+            color: rgb(246, 173, 28);
+            font-weight: bolder;
+            text-align: center;
+            font-style: italic;
+        }
+        .menu{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 80px;
+        }
+        .item{
+            margin: 20px;
+            text-align: center;
+            background-color: wheat;
+            padding: 15px;
+            border-radius: 20px;
+            width: 220px;
+        }
+        .item img{
+            max-width: 200px;
+            max-height: 200px;
+            border-radius: 20px;
+            object-fit: cover;
+        }
+        footer{
+            text-align: center;
+            color: wheat;
+            background-color: black;
+            padding: 5px;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+        }
+    </style>
+    <body>
+        <div class="link">
+            <a href="cafe.html">Cafe House</a>
+            <a href="nuts.html">Cafe Offerings</a>
+            <a href="creator.html">Cafe Creators</a>
+            <a href="find.html">Find our Cafe</a>
+        </div>
+        <div class="name">
+            <p>Golden Hour Cafe</p>
+        </div>
+        <div class="menu">
+            <div class="item">
+                <img src="hotcho.jpg">
+                <h3>Hot Chocolate</h3>
+                <h4>$3.50</h4>
+            </div>
+            <div class="item">
+                <img src="cappuccino.jpg">
+                <h3>Cappuccino</h3>
+                <h4>$3.25</h4>
+            </div>
+            <div class="item">
+                <img src="Americano.jpg">
+                <h3>Americano</h3>
+                <h4>$2.75</h4>
+            </div>
+            <div class="item">
+                <img src="Cara.jpg">
+                <h3>Caramel Machiato</h3>
+                <h4>$4.25</h4>
+            </div>
+            <div class="item">
+                <img src="macha.jpg">
+                <h3>Green Matcha</h3>
+                <h4>$3.50</h4>
+            </div>
+        </div>
+        <footer>
+            &copy; Moushmitha B (25014643)
+        </footer>
+    </body>
+</html>
